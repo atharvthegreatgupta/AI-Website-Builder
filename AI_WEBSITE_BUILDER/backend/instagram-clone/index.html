@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">Instagram</div>
+            <input type="text" placeholder="Search" class="search-bar">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Messages</a>
+                <a href="#">Explore</a>
+                <a href="#">Notifications</a>
+                <a href="#">Profile</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content container">
+        <div class="feed">
+            <!-- Example Post 1 -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://via.placeholder.com/30" alt="User Avatar" class="avatar">
+                    <span class="username">user_a</span>
+                </div>
+                <img src="https://via.placeholder.com/600x400" alt="Post Image" class="post-image">
+                <div class="post-actions">
+                    <span>❤️ Like</span>
+                    <span>💬 Comment</span>
+                    <span>↗️ Share</span>
+                </div>
+                <div class="post-info">
+                    <p><strong>user_a</strong> A beautiful day outside!</p>
+                    <span class="timestamp">1 hour ago</span>
+                </div>
+            </div>
+
+            <!-- Example Post 2 -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://via.placeholder.com/30" alt="User Avatar" class="avatar">
+                    <span class="username">user_b</span>
+                </div>
+                <img src="https://via.placeholder.com/600x400?text=Another+Post" alt="Post Image" class="post-image">
+                <div class="post-actions">
+                    <span>❤️ Like</span>
+                    <span>💬 Comment</span>
+                    <span>↗️ Share</span>
+                </div>
+                <div class="post-info">
+                    <p><strong>user_b</strong> Exploring new places!</p>
+                    <span class="timestamp">3 hours ago</span>
+                </div>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <div class="profile-card">
+                <img src="https://via.placeholder.com/50" alt="Your Avatar" class="avatar">
+                <div class="profile-details">
+                    <strong>your_username</strong>
+                    <span>Your Name</span>
+                </div>
+            </div>
+            <div class="suggestions">
+                <h3>Suggestions for you</h3>
+                <ul>
+                    <li>
+                        <img src="https://via.placeholder.com/30" alt="Suggested Avatar" class="avatar">
+                        <span>suggested_user_1</span>
+                        <button>Follow</button>
+                    </li>
+                    <li>
+                        <img src="https://via.placeholder.com/30" alt="Suggested Avatar" class="avatar">
+                        <span>suggested_user_2</span>
+                        <button>Follow</button>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

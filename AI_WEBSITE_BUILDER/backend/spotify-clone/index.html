@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Spotify Clone</h1>
+        <div id="player-controls">
+            <p id="current-song-info">Not playing</p>
+            <button id="play-pause-btn">Play/Pause</button>
+        </div>
+        <div id="song-list">
+            <!-- Songs will be loaded here by JavaScript -->
+        </div>
+    </div>
+    <audio id="audio-player" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
